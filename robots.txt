@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: /sitemap.xml
+
+# Allow crawling of all important pages
+Allow: /index.html
+Allow: /services/
+Allow: /locations/
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Crawl-delay for politeness
+Crawl-delay: 1
+
+# Block any admin or private directories (if they existed)
+Disallow: /private/
+Disallow: /admin/
+Disallow: /*.log$
+
+# Common SEO best practices
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
