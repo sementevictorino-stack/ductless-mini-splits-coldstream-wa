@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: /sitemap.xml
+Sitemap: https://coldstreamwaductlessminisplits.netlify.app/sitemap.xml
 
 # Allow crawling of all important pages
 Allow: /index.html
